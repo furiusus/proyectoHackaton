@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="vendor2/materialize-0.98.1/css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body ng-app="MiAplicacion">
+    <div id="paginapRrincipal" ng-controller="MiControlador">
+        <div class="container">
+            <div class="row">
+                <div id="dropdown1" class="dropdown-content " >
+                    <li><a href="" style="color: #795548;">Huellas</a></li>
+                    <li><a href="" style="color: #795548;">DNIe</a></li>
+                    <li><a href="" style="color: #795548;">DNI</a></li>
+                    <li disabled><a href="">Facial</a></li>
+                </div>
+                <nav>
+                    <div class="nav-wrapper cyan accent-2">
+                        <a href="#" class="brand-logo">IDHuellas</a>
+                        <ul class="right hide-on-med-and-down" >
+                            <li><a href="" class="dropdown-button" style="color: gray" data-activates="dropdown1">Identificacion<i class="material-icons right">details</i></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div id="">
+        <div class="container">
+            <div class="row">
+                <div class="col s6 offset-s3 center-align" >
+                    <button class="btn">Identificar</button>
+                </div>
+            </div>
+            <div class="row">
+                <iframe src="https://web.facebook.com/" width="910" height="1400" marginwidth="0" marginheight="0" frameborder="no" scrolling="yes" style="border:0px;"></iframe>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+<script type="text/javascript" src="vendor2/jquery-3.2.0/jquery-3.2.0.min.js"></script>
+<script type="text/javascript" src="vendor2/angular-1.6/angular.min.js"></script>
+<script type="text/javascript" src="vendor2/materialize-0.98.1/js/materialize.min.js"></script>
+<script type="text/javascript" src="app/js/aplicacion.js"></script>
+<script type="text/javascript" src="app/js/controlador.js"></script>
+</body>
+</html>
